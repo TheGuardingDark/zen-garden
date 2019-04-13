@@ -22,12 +22,12 @@ body {
 	padding: 0;
 	}
 p { 
-	margin-top: 0; 
+	margin-top: 0;
 	text-align: justify;
 	background-color: dimgray
 	}
 h3 { 
-	font: italic normal 1.4em garamond, courier;
+	font: italic bold 1.4em garamond, courier;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
 	color: black;
@@ -54,7 +54,7 @@ abbr {
 
 /* specific divs */
 .page-wrapper { 
-	background: url(https://commons.wikimedia.org/wiki/File:Here_comes_rain_again.jpg) no-repeat top left; 
+	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: center;
@@ -66,7 +66,7 @@ abbr {
 	}
 
 header h1 { 
-	background: transparent url(https://commons.wikimedia.org/wiki/File:Here_comes_rain_again.jpg) no-repeat top left;
+	background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left;
 	margin-top: 10px;
 	display: block;
 	width: 219px;
@@ -78,7 +78,7 @@ header h1 {
 	overflow: hidden;
 	}
 header h2 { 
-	background: transparent url() no-repeat top left; 
+	background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left;  
 	margin-top: 58px; 
 	margin-bottom: 40px; 
 	width: 200px; 
@@ -129,7 +129,7 @@ footer a:link, footer a:visited {
 	}
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
-	background: transparent url(https://commons.wikimedia.org/wiki/File:Here_comes_rain_again.jpg) top left repeat-y; 
+	background-color: magenta; 
 	padding: 10px; 
 	margin-top: 150px; 
 	width: 130px; 
@@ -179,15 +179,15 @@ footer a:link, footer a:visited {
 	list-style-type: none;
 	}
 .sidebar li a:link {
-	color: #988F5E;
+	color: darkblue;
 	}
 .sidebar li a:visited {
-	color: #B3AE94;
+	color: darkblue;
 	}
 
 
 .extra1 {
-	background: url(https://commons.wikimedia.org/wiki/File:Here_comes_rain_again.jpg) top left no-repeat; 
+	background: url(http://csszengarden.com/001/cr2.gif) top left no-repeat; 
 	position: absolute; 
 	top: 40px; 
 	right: 0; 
