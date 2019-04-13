@@ -13,23 +13,25 @@ html {
 	margin: 0;
 	padding: 0;
 	}
-body { 
-	font: 75% Garamond, courier;
+body {
+	font: 80% Garamond, courier;
 	line-height: 1.88889;
 	color: Navy; 
-	background: plum url(https://commons.wikimedia.org/wiki/File:Here_comes_rain_again.jpg) no-repeat bottom right; 
+	background-image: url(rain.jpg);
 	margin: 0; 
 	padding: 0;
 	}
 p { 
 	margin-top: 0; 
 	text-align: justify;
+	background-color: dimgray
 	}
 h3 { 
 	font: italic normal 1.4em garamond, courier;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
-	color: rebeccapurple;
+	color: black;
+	background-color: darkmagenta;
 	}
 a:link { 
 	font-weight: bold; 
