@@ -45,7 +45,7 @@ a:visited {
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
-	color: royalblue;
+	color: magenta;
 	}
 abbr {
 	border-bottom: none;
@@ -54,7 +54,7 @@ abbr {
 
 /* specific divs */
 .page-wrapper { 
-	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
+	background: url() no-repeat top left; 
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: center;
@@ -66,7 +66,7 @@ abbr {
 	}
 
 header h1 { 
-	background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left;
+	background: black url(http://csszengarden.com/001/h1.gif) no-repeat top left;
 	margin-top: 10px;
 	display: block;
 	width: 219px;
@@ -77,8 +77,7 @@ header h1 {
 	white-space: nowrap;
 	overflow: hidden;
 	}
-header h2 { 
-	background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left;  
+header h2 {   
 	margin-top: 58px; 
 	margin-bottom: 40px; 
 	width: 200px; 
@@ -107,15 +106,16 @@ header {
 
 .preamble {
 	clear: right; 
-	padding: 0px 10px 0 10px;
-	}
+	padding: 0px 10px 0 10px;	
+}
 .supporting {	
 	padding-left: 10px; 
 	margin-bottom: 40px;
 	}
 
 footer { 
-	text-align: center; 
+	text-align: center;
+	background-color: dimgray; 
 	}
 footer a:link, footer a:visited { 
 	margin-right: 20px; 
@@ -129,7 +129,7 @@ footer a:link, footer a:visited {
 	}
 .sidebar .wrapper { 
 	font: 10px verdana, sans-serif; 
-	background-color: magenta; 
+	background-color: darkmagenta; 
 	padding: 10px; 
 	margin-top: 150px; 
 	width: 130px; 
@@ -187,7 +187,7 @@ footer a:link, footer a:visited {
 
 
 .extra1 {
-	background: url(http://csszengarden.com/001/cr2.gif) top left no-repeat; 
+	background: url(dance.jpg) top left no-repeat; 
 	position: absolute; 
 	top: 40px; 
 	right: 0; 
